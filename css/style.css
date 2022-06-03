@@ -1,0 +1,66 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+:root {
+
+     /* colors */
+     --blue-50 : #EDFCFE;
+    --blue-100 : #D1F5FC;
+    --blue-200 : #A9EBF8;
+    --blue-300 : #6DDBF3;
+    --blue-400 : #2BC2E5;
+    --blue-500 : #0FA5CB;
+    --blue-600 : #0F82A9;
+    --blue-700 : #136A8B;
+    --blue-800 : #195771;
+    --blue-900 : #194960;
+
+     /* font size */
+     --font-size-sm: clamp(0.8rem, 0.17vw + 0.76rem, 0.89rem);
+     --font-size-base: clamp(1rem, 0.34vw + 0.91rem, 1.19rem);
+     --font-size-md: clamp(1.25rem, 0.61vw + 1.1rem, 1.58rem);
+     --font-size-lg: clamp(1.56rem, 1vw + 1.31rem, 2.11rem);
+     --font-size-xl: clamp(1.95rem, 1.56vw + 1.56rem, 2.81rem);
+     --font-size-xxl: clamp(2.44rem, 2.38vw + 1.85rem, 3.75rem);
+     --font-size-xxxl: clamp(3.05rem, 3.54vw + 2.17rem, 5rem);
+}
